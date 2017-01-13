@@ -1,0 +1,26 @@
+{
+  "name": "socket-chat",
+  "version": "1.0.0",
+  "description": "socket.io app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzl7/socketApp.git"
+  },
+  "keywords": [
+    "socket聊天室"
+  ],
+  "author": "zzl7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzl7/socketApp/issues"
+  },
+  "homepage": "https://github.com/zzl7/socketApp#readme",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.7.2"
+  }
+}
