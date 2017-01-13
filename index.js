@@ -12,7 +12,8 @@ http.listen(3000, function(){
 });
 
 io.on('connection', function(socket){
-	console.log("欢迎进入聊天室")
+	// console.log("欢迎进入聊天室")
+	socket.broadcast.emit('message','欢迎新同学进入聊天室');
 	socket.on("chat message", function(msg){
 		io.emit('chat message', msg);
 		console.log('message: ' + msg);
